@@ -4,6 +4,7 @@
 
 @layer base{
   body {
-    @apply w-screen h-screen bg-gradient-to-t from-[#C21414] to-[#000000]
+    @apply w-screen h-screen bg-gradient-to-t from-[#C21414] to-[#000000] overflow-hidden
+    
   }
 }

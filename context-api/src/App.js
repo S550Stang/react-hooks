@@ -1,9 +1,10 @@
+import { Counter } from "./components/Counter";
 
 
 function App() {
   return (
-    <div className="text-center ">
-     This is the app component
+    <div className="flex justify-center items-center">
+     <Counter/>
     </div>
   );
 }
